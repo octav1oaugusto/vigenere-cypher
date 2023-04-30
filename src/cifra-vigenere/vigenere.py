@@ -27,10 +27,8 @@ class Cifra(Tools):
 
     def adaptador(self, caracter):
         if self.CRIPTOGRAFAR:
-            print("cri")
             self.criptografar(caracter)
         if self.DESCRIPTOGRAFAR: 
-            print("decri")
             self.descriptografar(caracter)
 
     def criptografar(self, caracter):
@@ -52,11 +50,3 @@ class Decifrador(Cifra):
     def __init__(self, texto, senha):
         self.DESCRIPTOGRAFAR = True
         super().__init__(texto, senha)
-
-        
-# teste de entradas    
-texto = input("insira o texto: ")
-senha = input("insira a senha: ")
-
-cifra = Decifrador(texto, senha)
-print(f"texto: {cifra}")
