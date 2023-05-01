@@ -42,7 +42,7 @@ if __name__ == "__main__":
           if decipher == "s":
             print(space)
             print(separator)
-            print("Decrypted message: ")
+            print("Mensagem decifrada: ")
             print(separator)
             print(Decifrador(string_ofc, key))
             print(separator)
