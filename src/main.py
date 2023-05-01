@@ -1,4 +1,4 @@
-from vigenere import Decifrador, Cifrador
+from cypher.vigenere import Cifrador, Decifrador
 
 if __name__ == "__main__":
   option = 0
@@ -9,7 +9,7 @@ if __name__ == "__main__":
     print("2-Decifrar mensagem")
     print("3-Encerrar programa")
     
-    option= input("Escolha uma option: ")
+    option= input("Escolha uma opção: ")
     if option == "1":
       string_ofc = input("Insira a mensagem decifrada: ")
       keyword = input("Insira a chave: ")
