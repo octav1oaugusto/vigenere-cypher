@@ -38,7 +38,7 @@ Para executar o projeto, você pode escolher as opções:
 
 - ### Via executável: 
  
- 1. Clique 2x no arquivo main.exe :smile:
+ 1. Clique 2x no arquivo `main.exe` :smile:
 
 ## Referências
 
