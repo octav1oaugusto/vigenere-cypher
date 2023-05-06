@@ -71,12 +71,10 @@ class AtaqueAnaliseFrequencia:
             self.vigenere_decrypt(text, key, True)))
         return best_keys[:2]
 
-
 class AtaqueAnaliseFrequenciaPT(AtaqueAnaliseFrequencia):
     def __init__(self, texto):
         self.FREQ = PORTUGUES_FREQ
         super().__init__(texto)
-
 
 class AtaqueAnaliseFrequenciaENG(AtaqueAnaliseFrequencia):
     def __init__(self, texto):

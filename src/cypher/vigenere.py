@@ -24,7 +24,7 @@ class Cifra(Tools):
                 self.alfabeto, caracter_indice
             )
             self.adaptador(caracter)
-
+            
     def adaptador(self, caracter):
         if self.CRIPTOGRAFAR:
             self.criptografar(caracter)
