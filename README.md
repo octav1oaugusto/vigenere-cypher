@@ -29,14 +29,14 @@ Este projeto consiste em uma implementação da cifra de Vigenère em Python, ju
 
 Para executar o projeto, você deve seguir as seguintes etapas:
 
-### Via terminal: 
+ - ### Via terminal: 
 
 1. Abra o terminal ou prompt de comando do seu sistema operacional;
 2. Navegue até o diretório raiz do projeto utilizando o comando `cd`;
 3. Certifique-se de que a versão do Python instalada em seu sistema é a versão 3 ou superior. Para verificar isso, execute o comando `python --version` ou `python3 --version`;
 4. Execute o comando `python3 main.py` para rodar o programa. Esse comando irá rodar o arquivo `main.py` do projeto.
 
-### Via executável: 
+- ### Via executável: 
  
  1. Clique 2x no arquivo main.exe :smile:
 
