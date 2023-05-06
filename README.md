@@ -27,7 +27,7 @@ Este projeto consiste em uma implementação da cifra de Vigenère em Python, ju
 
 ## Como Executar o Projeto
 
-Para executar o projeto, você deve seguir as seguintes etapas:
+Para executar o projeto, você pode escolher as opções:
 
  - ### Via terminal: 
 
